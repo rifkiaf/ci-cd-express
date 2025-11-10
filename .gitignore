@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment files
+.env
+.env.local
+
+# Logs
+logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+coverage/
+
+# Docker related
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore local configuration
+.idea/
+.vscode/
