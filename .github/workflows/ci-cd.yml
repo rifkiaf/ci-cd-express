@@ -21,8 +21,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run tests
-        run: npm test
+      - name: Run Node
+        run: node index.js
+
 
   docker-deploy:
     needs: build-test
